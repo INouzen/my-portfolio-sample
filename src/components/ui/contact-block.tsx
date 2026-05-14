@@ -38,12 +38,12 @@ export function ContactBlock() {
           viewport={{ once: true }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
         >
-          <a href="mailto:liamfelipe7212005@gmail.com">
+          <a href="mailto:shotoscpf@gmail.com">
             <Button size="lg" className="gap-2 uppercase tracking-widest text-xs rounded-none border-primary bg-primary hover:bg-primary/80 w-full sm:w-auto">
               <Mail className="h-4 w-4" /> Send Message
             </Button>
           </a>
-          <a href="https://www.linkedin.com/in/liam-felipe-a79a72365/" target="_blank">
+          <a href="https://www.linkedin.com/in/izuya-nouzen-123456789/" target="_blank">
             <Button size="lg" variant="outline" className="gap-2 uppercase tracking-widest text-xs rounded-none border-primary text-primary hover:bg-primary w-full sm:w-auto">
               <Linkedin className="h-4 w-4" /> LinkedIn
             </Button>

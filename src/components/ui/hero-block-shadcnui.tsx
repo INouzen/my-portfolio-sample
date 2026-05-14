@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowDown, Mail } from "lucide-react";
 import { useEffect, useState } from "react";
 
-const roles = ["Web Developer.", "Game Developer.", "BSIT Student.", "The Undertaker."];
+const roles = ["Web Developer.", "Game Developer.", ];
 
 export function HeroBlock() {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -33,14 +33,14 @@ export function HeroBlock() {
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-size-[24px_24px]" />
 
       <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }} className="absolute top-24 left-8 text-xs text-primary uppercase tracking-[0.3em] border-l-2 border-primary pl-3" style={{ fontFamily: "var(--font-share-tech-mono)" }}>
-        UNIT: SPEARHEAD // NOUZEN, L.F
+        UNIT: SPEARHEAD //
       </motion.div>
 
       <div className="relative z-10 mx-auto max-w-5xl text-center px-6">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.2, type: "spring", stiffness: 200 }} className="mb-8 inline-block">
             <div className="mx-auto h-24 w-24 rounded-full border-2 border-primary overflow-hidden shadow-lg shadow-primary/20">
-              <img src="/me.jpg" alt="Liam Felipe" className="h-full w-full object-cover" />
+              <img src="/me.jpg" alt="Izuya Nouzen" className="h-full w-full object-cover" />
             </div>
           </motion.div>
 
@@ -49,7 +49,7 @@ export function HeroBlock() {
           </motion.p>
 
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.6 }} className="mb-4 text-5xl font-bold text-foreground md:text-7xl tracking-tight" style={{ fontFamily: "var(--font-share-tech-mono)" }}>
-            LIAM FELIPE
+            IZUYA NOUZEN
           </motion.h1>
 
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mb-2 h-8 flex items-center justify-center">
@@ -67,7 +67,7 @@ export function HeroBlock() {
             className="mx-auto mb-10 max-w-2xl text-base tracking-wide text-foreground"
             style={{ fontFamily: "var(--font-share-tech-mono)" }}
           >
-            2nd Year BSIT Student from AMA Computer College Fairview.
+            Welcome to my portfolio!
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5, duration: 0.6 }} className="mb-12 flex flex-wrap justify-center gap-4">

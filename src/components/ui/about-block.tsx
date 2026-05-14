@@ -23,12 +23,13 @@ export function AboutBlock() {
           className="text-base leading-relaxed tracking-wide mb-8 text-justify text-foreground"
           style={{ fontFamily: "var(--font-share-tech-mono)" }}
         >
-          My name is Liam Felipe, a 20-year-old Information Technology student at AMA Computer College Fairview.
+          My name is Izuya Nouzen, I'm an aspiring Information Technology student.
           I am passionate about technology and am actively pursuing knowledge in both web application development
           and game development, with the goal of building a career in either field. Outside of academics,
           I enjoy assembling Gunpla and model kits, which has strengthened my attention to detail and patience.
           I am driven to complete my studies and establish myself in a professional environment where I can
-          continuously grow and contribute meaningfully to the field of technology.
+          continuously grow and contribute meaningfully to the field of technology. I am also a car enthusiast and enjoy
+          watching touge runs.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

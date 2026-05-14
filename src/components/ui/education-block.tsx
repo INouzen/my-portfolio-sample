@@ -7,15 +7,15 @@ export function EducationalBlock() {
   const education = [
     {
       degree: "Bachelor of Science in Information Technology",
-      school: "AMA Computer College Fairview",
+      school: "[REDACTED]",
       period: "2024 — PRESENT",
-      location: "Lot 28-31, Blk 61. Bristol St. Cor. Regalado Avenue, Fairview Quezon CIty, 1121 Quezon City, Philippines, Bristol Street, Novaliches,",
+      location: "[REDACTED]",
     },
     {
       degree: "Senior High School - STEM",
-      school: "Mater Carmeli School of Novaliches",
+      school: "[REDACTED]",
       period: "2015 — 2024",
-      location: "Fr. Francisco Palau St., Sacred Heart Village, Novaliches, Quezon City, Metro Manila, Philippines",
+      location: "[REDACTED]",
     }
   ];
 
